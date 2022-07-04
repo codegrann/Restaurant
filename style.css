@@ -1,0 +1,118 @@
+body{
+    background-image: url(hamburger.jpg);
+    margin: 0;
+    box-sizing: border-box;
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+#header{
+    width: 100vw;
+    background-color: white;
+    min-height: 50px;
+    box-shadow: 2px 2px 2px grey;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+}
+
+
+#header a{
+    text-decoration: none;
+    color: rgb(62, 50, 50);
+}
+
+#nav{
+    /* border: 2px solid red; */
+}
+#nav a{
+   /* background-color: grey; */
+   padding: 5px;
+   margin: 0.90rem;
+   transition: 400ms;
+    
+}
+#nav a:hover{
+    background-color: rgb(152, 149, 149);
+    border-radius: 2px;
+}
+#p_img{
+    color: gray;
+    position: relative;
+    top: 500px;
+    font-size: 24pt;
+    margin: 1.2rem;
+}
+
+#about{
+    position: absolute;
+    top: 800px;
+    width: 90%;
+    /* margin: auto; */
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+#about_img{
+    /* background-image: url(tablesetting2.jpg); */
+    width: 500px;
+    /* height: 900px; */
+    margin-left: 5rem;
+    /* margin-left: 3rem; */
+}
+#about_img img{
+    width: 100%;
+    opacity: 0.8;
+}
+#about_txt p{
+    margin: 5px;
+    /* word-spacing: 3px; */
+    line-height: 1.8;
+    padding: 1.75rem;
+    font-size: 11pt;
+}
+#about_txt h3{ 
+    font-weight: 500;
+}
+#p2{
+    color: gray;
+}
+#menu{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+#menu{
+    position: absolute;
+    top: 1600px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    word-spacing: 0.2rem;
+    letter-spacing: 0.1rem;
+}
+#menu_img{
+    width: 500px;
+    opacity: 0.7;
+    margin-left: 4rem;
+}
+#menu_list{
+    margin-left: 5rem;
+    
+}
+#menu_list p, h{
+    line-height: 2;
+}
+#menu_list p{
+    margin-bottom: 3rem;
+    color: gray;
+    font-size: 10pt;
+}
+#menu_list h3{
+    font-weight: 400;
+}
+
+/* #contact{ */
+    /* position: relative; */
+    /* top: 1600; */
+/* } */

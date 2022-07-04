@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *, *::after, *::before{
+            box-sizing: border-box;
+        }
+        body{
+            margin: 0;
+        
+        }
+        #contact{
+            /* border: 2px solid gray; */
+            padding: 3rem 10rem;
+            margin: 0 auto;
+        }
+        #p_unique{
+            color: blue;
+            opacity: 0.9;
+        }
+        input, textarea{
+            border: none;
+            border-bottom: 1px solid gray;
+            width: 70%;
+            margin: 2rem 0;
+            padding: 1rem 0.5rem;
+            /* background-color: #fff; */
+        }
+        #bt1, #bt2{
+            padding: 0.5rem;
+            border: none;
+        }
+        #bt1{
+            background-color: green;
+            border-radius: 0.5rem;
+        }
+        #bt1 a{
+            text-decoration: none;
+            color: rgb(76, 58, 58);
+        }
+       
+       #bt2:hover{
+            background-color: rgb(172, 164, 164);
+            cursor: pointer;
+            border-radius: 0.1rem;
+        }
+    </style>
+    <title>Contact US</title>
+</head>
+<body>
+    <section id="contact">
+        <button id="bt1"><a href="index.html">HOME</a></button>
+         <h1>Contact</h1>
+         <p>We offer full-service catering for any event, large or small. We understand your needs <br> and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.<br> Do not hesitate to contact us.</p>
+         <p id="p_unique">Catering Service, 42nd Living St, 43043 New York, NY</p>
+         <p>You can also contact us by phone 00553123-2323 or email catering@catering.com, or <br> you can send us a message here:</p>
+         <form action="POST" id="form_contact">
+             <input type="text" placeholder="Name" required><br>
+             <input type="number" placeholder="How many people" required><br>
+             <input type="date" value="dateTime" required><br>
+             <textarea name="message" id="" placeholder="Messgae/Special requirements"></textarea><br>
+             <button id="bt2">SEND MESSAGE</button>
+
+         </form>
+   </section>
+
+</body>
+</html>
